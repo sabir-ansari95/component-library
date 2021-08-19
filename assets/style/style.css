@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+hr {
+    margin: 2.5rem 0rem;
+}
+
 /** Container **/
 .container {
     padding-left: 1rem;
