@@ -41,45 +41,49 @@
 
     <h2>@list</h2>
     <h3>Unordered List</h3>
-    <ul>
+    <p>This list will not have bullet.</p>
+    <ul class="list-non-bullet">
         <li>List One</li>
         <li>List Two</li>
         <li>List Three</li>
     </ul>
 
-    <h3>Ordered List</h3>
+    <h3>Unordered inline List</h3>
 
-    <ol>
-        <li>One</li>
-        <li>Two</li>
-        <li>Three</li>
-    </ol>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">One</li>
+        <li class="list-item-inline">Two</li>
+        <li class="list-item-inline">Three</li>
+    </ul>
 
     <h3>Reverse ordered list</h3>
-    <ol>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>break</li>
+    <ol reversed>
+        <li>ONE</li>
+        <li>TWO</li>
+        <li>THREE</li>
     </ol>
 
     <hr>
-
+    
     <h2>@nav</h2>
-    <div>iAmBrand</div>
-    <ul>
-        <li>
-            <a href="#">Home</a>
-        </li>
-        <li>
-            <a href="#">About</a>
-        </li>
-        <li>
-            <a href="Services">Services</a>
-        </li>
-        <li>
-            <a href="Blog">Blog</a>
-        </li>
-    </ul>
+
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="#">Home</a>
+            </li>
+            <li class="list-item-inline">    
+                <a class="link" href="#">About</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="Services">Services</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="Blog">Blog</a>
+            </li>
+        </ul>
+</nav>
 
     <hr>
 
